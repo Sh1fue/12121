@@ -1,0 +1,49 @@
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 70vw;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.logo-2 {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+.links{display: grid;
+    gap: 0.5em;
+}
+.sectoins-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2%;
+}
+
+.contact-info {
+    justify-self: end;
+    display: grid;
+    gap: 0.5em;
+}
+.company-info{
+    display: grid;
+    gap: 0.5em;
+}
+.logo-footer b{
+    color: #3B67BB;
+    font-size: 24px;
+}
+.logo-footer > small{
+    color: #FB9257;
+    font-size: 15px;
+}
+.razdel{
+    margin-top: 5%;
+    background-color: #D9D9D9;
+    width: 70vw;
+    height: 7px;
+    margin-left: 15%;
+    border-radius: 15px;
+}
+.opisanie-footer{
+    font-weight: 550;
+    font-size: 15px;
+}

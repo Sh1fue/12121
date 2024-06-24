@@ -1,0 +1,23 @@
+
+.sidebar-admin {
+    height: 100%;
+    width: 200px; 
+    padding: 20px;
+    background-color: #f0f0f0;
+
+  }
+  
+  .sidebar-admin h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebsidebar-adminar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-admin ul li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  

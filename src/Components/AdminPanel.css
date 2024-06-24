@@ -1,0 +1,43 @@
+.detail-form {
+    margin-left: 15%;
+    padding: 20px;
+  }
+  
+  .detail-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .detail-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .detail-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .detail-form button:hover {
+    background-color: #0056b3;
+  }
+  .glav-adminpanel {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    width: 70vw;
+    margin-left: 15%;
+  }
+  
+  .glav-adminpanel > form {
+    margin-left: 0%;
+    width: 50%;
+  }

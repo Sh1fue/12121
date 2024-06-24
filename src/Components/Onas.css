@@ -1,0 +1,50 @@
+.container-onas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 3%;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-onas > p {
+    width: 60vw;
+}
+
+.container-onas > h2 {
+    font-weight: normal;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+ul li i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #00b4d8;
+}
+
+.advantages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+@media (max-width: 600px) {
+    .advantages {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,9 @@
+.slider-container{
+    width: 70vw;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.slick-slide img {
+    display: block;
+    width: 160px;
+}

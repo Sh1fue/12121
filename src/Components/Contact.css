@@ -1,0 +1,106 @@
+
+.contact-page {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 70vw;
+    margin-left: 15%;
+  }
+  
+  .contact-item {
+    text-align: center;
+  }
+  
+  .map-container {
+    width: 90%;
+    height: 400px;
+  }
+  .jjjjjj{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 15%;
+    width: 70vw;
+
+  }
+  .message-container {
+    display: grid;
+    gap: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 4%;
+  }
+  .contact-page > h2{
+    margin-left: 15%;
+    margin-top: 3%;
+    font-weight: normal;
+  }
+  .message-container textarea {
+    width: calc(100% - 20px);
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .message-container input[type="text"],
+.message-container input[type="email"],
+.message-container input[type="phone"] {
+  width: calc(50% - 10px);
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 3%;
+}
+.message-container button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  justify-self: center;
+  margin-top: 3%;
+}
+  
+  .message-container button:hover {
+    background-color: darkorange;
+  }
+  @media (max-width: 768px) {
+    .contact-details {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-items-grid-3{
+    grid-column: span 2;
+  }
+  .map-container {
+    width: 80vw;
+    height: 400px;
+    margin-left: 5vw;
+  }
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+  .message-container {
+  margin-left: 0vw;
+  }
+  .message-container button{
+    width: 50%;
+    margin-left: 25%;
+  }
+  }
